@@ -15,15 +15,15 @@ When we started, we started off by separating flow and Steam between two servers
 ## Steam doesn't keep deployments running
 Once we had our servers up and trained our models, we started deploying the models and using them. This goes all smoothly through Steam's web interface. 
 
-Sadly, however after a reboot of the server to increase the RAM, we found out none of the Steam deployments were actually running. When you deploy an endpoint Steam compiles it to a `.war` file, starts it and stores the process ID in it's SQLite database. But Steam doesn't manage the deployment. So once the deployment is killed for whatever reason, some parts of the UI become unresponsive.
+Sadly, however after a reboot of the server to increase the RAM, we found out none of the Steam deployments were actually running. When you deploy an endpoint Steam compiles it to a `.war` file, starts it and stores the process ID in its SQLite database. But Steam doesn't manage the deployment. So once the deployment is killed for whatever reason, some parts of the UI become unresponsive.
 
-To fix this, we created a rather simple Go application called the [h2o-steam-overseer](https://github.com/ExpandOnline/h2o-steam-overseer) which is open source and can be found on github. What does it do? Using the Steam SQLite database it fetches the process ID of the deployments and checks if they're running. If they're not running it starts the deployment and updates the SQLite database with the correct process ID. We run the h2o-steam-overseer every 30 minutes through the crontab like so;
+To fix this, we created a rather simple Go application called the [h2o-steam-overseer](https://github.com/ExpandOnline/h2o-steam-overseer) which is open source and can be found on github. What does it do? Using the Steam SQLite database it fetches the process ID of the deployments and checks if it is running. If it is not running it starts the deployment and updates the SQLite database with the new and correct process ID. We run the h2o-steam-overseer every 30 minutes through the crontab like so;
 
 `30 * * * * /home/steam/h2o-steam-overseer /home/steam/steam-1.1.6-linux-amd64`
 
 
 ## R and Flow's saveModel and loadModel functions
-The R library for H2O Flow has two functions called `saveModel` and `loadModel`. These functions are self-explanatory, they save and load a model respectively. But what isn't self-explanatory is that when you call these functions from your R studio, the models are saved and loaded on the *server* not on the machine where R studio is running. This isn't something that's very intuitive and we make sure to store in a directory that's recognizable eg. `~/models/customer-name/trained-model-march-2018`.
+The R library for H2O Flow has two functions called `saveModel` and `loadModel`. These functions are self-explanatory, they save and load a model respectively. But what isn't self-explanatory is that when you call these functions from your R studio, the models are saved and loaded on the *server* and not on the machine where R studio is running. This isn't something that's very intuitive and we make sure to store it in a directory that's recognizable eg. `~/models/customer-name/trained-model-march-2018`.
 
 
 ## Don't forget to backup
