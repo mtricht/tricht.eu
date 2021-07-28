@@ -83,9 +83,7 @@ subdomain3.tricht.dev {
     X-Content-Type-Options "nosniff"
     X-Frame-Options "SAMEORIGIN"
   }
-  encode gzip {
-    gzip 4
-  }
+  encode gzip
 }
 ```
 
