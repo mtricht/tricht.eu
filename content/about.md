@@ -16,5 +16,4 @@ In my free time I like working on open source projects such as:
  Java, Spring Boot, Go, PHP, iOS, macOS, Swift, Laravel, Lumen, Symfony, Slim, CakePHP, CodeIgniter, NodeJS, Javascript, Express, React, 
  Python, Flask, RabbitMQ, SCRUM, Test Driven Development, Design Patterns, UML, MySQL, MongoDB, PostgreSQL, SQL server, AWS, Google Cloud, 
  Linux, CentOS, Ubuntu, Arch Linux, Docker, Kubernetes, Jenkins, SonarQube, Grafana, Graylog, Datadog, Prometheus, Git, Github, 
- Nexus, Jira, XML, REST, SOAP, XSLT, PhpStorm, IntelliJ, Postman, Insomnia, SoapUI, Trello, LDAP, VPN, IPsec
- SURFconext, SAML, and many more...
+ Nexus, Jira, XML, REST, SOAP, XSLT, PhpStorm, IntelliJ, Postman, Insomnia, SoapUI, Charles, Trello, LDAP, VPN, IPsec, SURFconext, SAML and many more...
