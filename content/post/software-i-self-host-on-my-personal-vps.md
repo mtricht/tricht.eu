@@ -53,7 +53,7 @@ Other pieces of software that I self-host that are worth mentioning but are rath
 
 - [Hastebin](https://github.com/seejohnrun/haste-server) - pastebin-like sharing of text files. Written in NodeJS, runs in docker.
 - [Teamspeak](https://www.teamspeak.com/en/) - VOIP for online gaming. The only that is proprietary in this list.
-- [Fathom](https://usefathom.com/) - Web analytics.
+- [Fathom](https://github.com/usefathom/fathom) - Web analytics.
 - [CyberChef](https://github.com/gchq/CyberChef) - a web app for encryption, encoding, compression and data analysis 
 
 ## Wishlist
