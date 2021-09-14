@@ -55,6 +55,7 @@ Other pieces of software that I self-host that are worth mentioning but are rath
 - [Teamspeak](https://www.teamspeak.com/en/) - VOIP for online gaming. The only that is proprietary in this list.
 - [Fathom](https://github.com/usefathom/fathom) - Web analytics.
 - [CyberChef](https://github.com/gchq/CyberChef) - a web app for encryption, encoding, compression and data analysis 
+- [Jellyfin](https://jellyfin.org/) - media system, where nextcloud files are mounted as readonly
 
 ## Wishlist
 Having listed of the software I self-host, there are still a few on my wishlist to try out:
