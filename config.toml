@@ -10,10 +10,6 @@ pygmentscodefencesguesssyntax = true
 
 [blackfriday]
   hrefTargetBlank = true
-  
-[params.fathomAnalytics]
-  siteID = "TMBWC"
-  serverURL = "analytics.tricht.dev"
 
 [params]
     author = "Michael van Tricht"
