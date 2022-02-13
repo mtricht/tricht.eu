@@ -13,7 +13,7 @@ pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Michael van Tricht"
-    info = "Full Stack Developer"
+    info = "Software Engineer"
     description = "Michael van Tricht's personal blog"
     keywords = "blog,developer,personal,resume"
     avatarurl = "https://www.gravatar.com/avatar/849871a025344d191ad9fa458380bf49?s=350"

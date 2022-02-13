@@ -4,7 +4,7 @@ slug = "about"
 draft = false
 +++
 
-Hi, I'm Michael van Tricht from The Netherlands. I started freelancing as a teenager in 2008, graduated as a Software Engineer in 2015 and have been working as a Full Stack Developer ever since. Currently I work with Java, Angular, iOS and Kubernetes.
+Hi, I'm Michael van Tricht from The Netherlands. I started freelancing as a teenager in 2008, graduated as a Software Engineer in 2015 and have been working as a full stack developer ever since. Currently I work with Java, React and Kubernetes.
 
 In my free time I like working on open source projects such as:
 
