@@ -24,3 +24,4 @@ jobs:
       with:
         deploy_key: ${{ secrets.GIT_DEPLOY_KEY }}
         publish_dir: ./docs
+        cname: tricht.dev
