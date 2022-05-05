@@ -16,7 +16,6 @@ pygmentscodefencesguesssyntax = true
     info = "Software Engineer"
     description = "Michael van Tricht's personal blog"
     keywords = "blog,developer,personal,resume"
-    avatarurl = "https://www.gravatar.com/avatar/849871a025344d191ad9fa458380bf49?s=350"
 
     favicon_32 = "/images/favicon.ico"
     favicon_16 = "/images/favicon.ico"
