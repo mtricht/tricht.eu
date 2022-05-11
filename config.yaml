@@ -1,0 +1,39 @@
+baseURL: "https://tricht.dev/"
+languageCode: "en-gb"
+title: "Michael van Tricht"
+theme: "PaperMod"
+paginate: 6
+publishDir: "docs"
+enableRobotsTXT: true
+
+pygmentsstyle: "monokai"
+pygmentscodefences: true
+pygmentscodefencesguesssyntax: true
+
+params:
+    author: "Michael van Tricht"
+    description: "Michael van Tricht's personal blog"
+    keywords: ["blog", "developer", "personal", "resume"]
+    defaultTheme: "dark"
+    disableThemeToggle: true
+    disableSpecial1stPost: true
+    showtoc: false
+    assets:
+      favicon: "/images/favicon.ico"
+      favicon16x16: "/images/favicon.ico"
+      favicon32x32: "/images/favicon.ico"
+    socialIcons:
+      - name: github
+        url: "https://github.com/mtricht"
+      - name: linkedin
+        url: "https://www.linkedin.com/in/michael-van-tricht-a6468927/"
+      - name: email
+        url: "mailto:michael@tricht.dev"
+
+menu:
+  main:
+    - name: "Projects"
+      url: "/projects/"
+      weight: 2
+    - name: "About"
+      url: "/about/"

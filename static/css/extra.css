@@ -1,3 +1,21 @@
-#dark-mode-toggle, .navigation-item.separator {
-  display: none;
+.post-content a {
+  color: #42a5f5;
+}
+a:hover {
+  color: #42a5f5;
+  text-decoration: underline;
+}
+
+a {
+  box-shadow: 0 0px !important;
+}
+
+.post-entry:hover {
+  backface-visibility: hidden;
+  transform: scale(1.02);
+}
+
+.post-entry:hover h2 {
+  color: #42a5f5 !important;
+  text-decoration: underline;
 }

@@ -1,0 +1,7 @@
+{{- range . }}
+<div style="max-width: 20px; margin-left: 15px">
+  <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me" title="{{ .name | title }}">
+      {{ partial "svg.html" . }}
+  </a>
+</div>
+{{- end }}
