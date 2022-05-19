@@ -27,6 +27,8 @@ params:
         url: "https://github.com/mtricht"
       - name: linkedin
         url: "https://www.linkedin.com/in/michael-van-tricht-a6468927/"
+      - name: twitter
+        url: "https://www.twitter.com/m_tricht"
       - name: email
         url: "mailto:michael@tricht.dev"
 
