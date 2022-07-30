@@ -1,21 +1,17 @@
-.post-content a {
+html.dark a, a:hover {
   color: #42a5f5;
-}
-a:hover {
-  color: #42a5f5;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 0px;
 }
 
-a {
-  box-shadow: 0 0px !important;
+.socials li {
+  margin: 3px 0 0 30px !important;
 }
 
-.post-entry:hover {
-  backface-visibility: hidden;
-  transform: scale(1.02);
+.header nav li a svg {
+  max-height: 18px;
 }
 
-.post-entry:hover h2 {
-  color: #42a5f5 !important;
-  text-decoration: underline;
+.footer {
+  display: none;
 }
