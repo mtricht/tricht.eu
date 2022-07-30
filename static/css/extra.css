@@ -1,3 +1,11 @@
+::-moz-selection {
+  background: #42a5f5 !important;
+}
+
+::selection {
+  background: #42a5f5 !important;
+}
+
 html.dark a, a:hover {
   color: #42a5f5;
   text-decoration: none;
