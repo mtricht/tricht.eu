@@ -23,7 +23,7 @@
 		</ul>
 		<ul class="flat socials">
 			{{- range $index, $key := .Site.Params.Social -}}
-				<li><a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></li>
+				<li><a href="{{ $key.url }}" title="{{ $key.name }}" target="_blank"><i data-feather="{{ $key.icon }}"></i></a></li>
 			{{- end -}}
 		</ul>
 	</nav>
