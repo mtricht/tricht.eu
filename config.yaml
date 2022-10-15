@@ -2,7 +2,7 @@ baseURL: "https://tricht.dev/"
 languageCode: "en-gb"
 title: "Michael van Tricht"
 theme: "ink"
-paginate: 6
+paginate: 5
 publishDir: "docs"
 enableRobotsTXT: true
  
