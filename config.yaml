@@ -11,7 +11,7 @@ pygmentscodefencesguesssyntax: true
 
 params:
   mode: "dark"
-  subtitle: ""
+  subtitle: "Software Engineer"
   customDarkCSS: "css/extra.css"
   favicon: "/images/favicon.ico"
   social:
