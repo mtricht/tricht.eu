@@ -12,14 +12,6 @@ html.dark a, a:hover {
   border-bottom: 0px;
 }
 
-.socials li {
-  margin: 3px 0 0 30px !important;
-}
-
-.header nav li a svg {
-  max-height: 18px;
-}
-
 .footer {
   display: none;
 }
