@@ -1,0 +1,9 @@
+<head>
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="{{ (resources.Get "css/normalize.css" | resources.Minify).Permalink }}" />
+  <link rel="stylesheet" href="{{ (resources.Get "css/sakura-dark.css" | resources.Minify).Permalink }}" />
+  <link rel="stylesheet" href="{{ (resources.Get "css/custom.css" | resources.Minify).Permalink }}">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel=icon type=image/png href=/images/favicon.ico>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+</head>
