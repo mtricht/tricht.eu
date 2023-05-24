@@ -1,32 +1,9 @@
 baseURL: "https://tricht.dev/"
 languageCode: "en-gb"
 title: "Michael van Tricht"
-theme: "ink"
-paginate: 10
+paginate: 100
 publishDir: "docs"
 enableRobotsTXT: true
  
 pygmentscodefences: true
 pygmentscodefencesguesssyntax: true
-
-params:
-  mode: "dark"
-  subtitle: "Software Engineer"
-  customDarkCSS: "css/extra.css"
-  favicon: "/images/favicon.ico"
-  social:
-    - name: GitHub
-      icon: github
-      url: "https://github.com/mtricht"
-    - name: Email
-      icon: mail
-      url: "mailto:michael@tricht.dev"
-
-menu:
-  main:
-    - name: "Home"
-      url: "/"
-      weight: 1
-    - name: "Projects"
-      url: "/projects/"
-      weight: 2
