@@ -53,7 +53,7 @@ Once you're done configuring, restart apache, nginx, php-fpm or whatever you use
 
 If you're running your PHP code locally, there's no need to configure anything in PhpStorm. If you're running things in Docker or Vagrant, you need to setup the path mapping first. Withouth the path mapping PhpStorm wouldn't debug anything because the file paths wouldn't match.
 
-Open the settings window and browse to Languages & Frameworks > PHP > Servers. Add a new server pointing to the publicly accessible host and port. If you're following along with [the `mtricht/xdebug-example` repository from GitHub](https://github.com/mtricht/xdebug-example), for Vagrant this would be host `127.0.0.1` and port `8001`. Check the `Use path mappings` checkbox and map the paths. For my repository and Vagrant this would be:
+Open the settings window and browse to Languages & Frameworks > PHP > Servers. Add a new server pointing to the publicly accessible host and port. If you're following along with the [mtricht/xdebug-example](https://github.com/mtricht/xdebug-example) repository from GitHub, for Vagrant this would be host `127.0.0.1` and port `8001`. Check the `Use path mappings` checkbox and map the paths. For my repository and Vagrant this would be:
 
 ![PhpStorm server configuration](/images/phpstorm-server.png)
 
