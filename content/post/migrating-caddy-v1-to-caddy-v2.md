@@ -10,7 +10,7 @@ With a few configuration lines you can get up and running in no time.
 
 Recently I switched VPS providers and ended up having to migrate Caddy from v1 to v2. The documentation for Caddy is wonderful and chockful with emojis. The [getting started](https://caddyserver.com/docs/getting-started#your-first-caddyfile) tutorial starts by telling you how a Caddyfile looks like in v2, where my confusion started. As I mostly need reverse proxies, the very first example there looks like this:
 
-```
+```Caddyfile
 localhost
 
 reverse_proxy 127.0.0.1:9000
@@ -18,7 +18,7 @@ reverse_proxy 127.0.0.1:9000
 
 which quite frankly looks quite different than what it looked like in v1. No curly brackets. How do I define multiple domains? Well apparently, the above is the equivalent to 
 
-```
+```Caddyfile
 localhost {
   reverse_proxy 127.0.0.1:9000
 }
@@ -28,7 +28,7 @@ which is sorta what you're used to! They do mention this somewhere [else](https:
 
 So to help you, here's my v1 Caddyfile:
 
-```
+```Caddyfile
 subdomain1.tricht.eu {
   proxy / localhost:7777
 }
