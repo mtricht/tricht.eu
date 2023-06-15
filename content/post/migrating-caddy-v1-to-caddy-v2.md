@@ -66,7 +66,7 @@ subdomain3.tricht.eu {
 
 and what it looks like in v2:
 
-```
+```Caddyfile
 subdomain1.tricht.eu {
   reverse_proxy localhost:7777
 }
