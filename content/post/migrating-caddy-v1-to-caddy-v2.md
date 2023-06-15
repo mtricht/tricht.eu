@@ -29,10 +29,10 @@ which is sorta what you're used to! They do mention this somewhere [else](https:
 So to help you, here's my v1 Caddyfile:
 
 ```
-subdomain1.tricht.dev {
+subdomain1.tricht.eu {
   proxy / localhost:7777
 }
-subdomain2.tricht.dev {
+subdomain2.tricht.eu {
   proxy /notifications/hub/negotiate localhost:8081 {
     transparent
   }
@@ -43,7 +43,7 @@ subdomain2.tricht.dev {
     transparent
   }
 }
-subdomain3.tricht.dev {
+subdomain3.tricht.eu {
   proxy / localhost:8080 {
     transparent
   }
@@ -67,15 +67,15 @@ subdomain3.tricht.dev {
 and what it looks like in v2:
 
 ```
-subdomain1.tricht.dev {
+subdomain1.tricht.eu {
   reverse_proxy localhost:7777
 }
-subdomain2.tricht.dev {
+subdomain2.tricht.eu {
   reverse_proxy /notifications/hub/negotiate localhost:8081
   reverse_proxy /notifications/hub localhost:3012
   reverse_proxy localhost:8081
 }
-subdomain3.tricht.dev {
+subdomain3.tricht.eu {
   reverse_proxy localhost:8080
   header {
     Strict-Transport-Security "max-age=31536000; includeSubdomains; preload"

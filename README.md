@@ -1,2 +1,2 @@
-# tricht.dev
+# tricht.eu
 My personal blog
