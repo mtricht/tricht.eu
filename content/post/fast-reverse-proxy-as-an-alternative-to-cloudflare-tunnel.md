@@ -12,27 +12,26 @@ While Cloudflare Tunnel works great giving you automatic SSL and all other goodi
 For those seeking an alternative solution, [Fast reverse proxy](https://github.com/fatedier/frp) (FRP) is an open-source project that can be self-hosted to replace Cloudflare Tunnel. If I had known about FRP earlier, I would have chosen it from the beginning. FRP offers a different approach by eliminating the need for an intermediary like Cloudflare, allowing you to have direct control over the traffic flow. This grants you the ability to ensure end-to-end encryption, thus mitigating potential security concerns.
 
 If you decide to self-host FRP and replace a Cloudflare Tunnel-like product, you'll need a [publicly available server](https://m.do.co/c/eb6358832805) running FRP as a starting point. The server's configuration might resemble the following:
-```ini
-[common]
-bind_port = 7000
-authentication_method = token
-token = <generatedToken>
+```toml
+bindPort = 7000
+auth.method = "token"
+auth.token = "<generatedToken>"
 ```
 This configuration sets FRP to listen on port 7000, enabling communication between the private server and the FRP instance on the public server.
 
 On the client side, the configuration would look like this:
-```ini
-[common]
-server_addr = <ipOfPublicServer>
-server_port = 7000
-token = <generatedToken>
+```toml
+serverAddr = "<ipOfPublicServer>"
+serverPort = 7000
+token = "<generatedToken>"
 
-[serviceName]
-type = tcp
-local_ip = 172.17.0.1
-local_port = 8080
-remote_port = 80
-use_encryption = true
+[[proxies]]
+name = "serviceName"
+type = "tcp"
+localIP = "172.17.0.1"
+localPort = 8080
+remotePort = 80
+transport.useEncryption = true
 ```
 With this setup, the client will connect to the publicly available server, exposing the service running on the local port `8080` of the client server to the public server on port `80`. In simpler terms, it can be described as a glorified version of an automatic SSH tunnel.
 

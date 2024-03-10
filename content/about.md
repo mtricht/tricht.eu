@@ -11,5 +11,5 @@ Feel free to track me down on [GitHub](https://github.com/mtricht) or simply sho
  Java, Kotlin, Spring Boot, Go, PHP, iOS, macOS, Swift, Laravel, Lumen, Symfony, Slim, CakePHP, CodeIgniter, NodeJS, Javascript, Express, React, 
  Python, Flask, RabbitMQ, SCRUM, Test Driven Development, Design Patterns, UML, MySQL, MongoDB, PostgreSQL, SQL server, AWS, Google Cloud, Azure,
  Linux, CentOS, Ubuntu, Arch Linux, Docker, Kubernetes, Helm, SOPS, Jenkins, SonarQube, Grafana, Graylog, Datadog, Prometheus, Git, Github, Gitlab,
- Nexus, Jira, XML, REST, SOAP, XSLT, PhpStorm, IntelliJ, Postman, Insomnia, SoapUI, Charles, Trello, LDAP, VPN, IPsec, SURFconext, SAML, OAuth2,
- OpenID, OpenID Connect, Matomo, Sentry, Elasticsearch, Kibana and many more...
+ Nexus, Jira, XML, REST, SOAP, XSLT, PhpStorm, IntelliJ, Postman, Insomnia, SoapUI, Charles, Trello, LDAP, VPN, IPsec, SURFconext, SAML, OAuth2, OpenLens, k9s, ArgoCD,
+ OpenID, OpenID Connect, Matomo, Sentry, Elasticsearch, Kibana, OpenRewrite and many more...
