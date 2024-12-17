@@ -24,4 +24,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: mtricht/tricht.eu:latest
+        tags: ghcr.io/mtricht/tricht.eu:latest
