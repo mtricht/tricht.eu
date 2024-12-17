@@ -17,9 +17,10 @@ jobs:
         extended: true
     - name: Build
       run: hugo --minify
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+    - name: Build and push
+      uses: docker/build-push-action@v6
       with:
-        deploy_key: ${{ secrets.GIT_DEPLOY_KEY }}
-        publish_dir: ./docs
-        cname: tricht.eu
+        push: true
+        tags: mtricht/tricht.eu:latest
