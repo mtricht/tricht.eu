@@ -7,3 +7,4 @@ enableRobotsTXT: true
  
 pygmentscodefences: true
 pygmentscodefencesguesssyntax: true
+pygmentsstyle: "gruvbox"
