@@ -1,0 +1,46 @@
+classes: {
+    invisible: {
+      style.opacity: 0
+      icon: https://icons.terrastruct.com/essentials%2F112-server.svg
+      shape: image
+    }
+}
+homelab: {
+    control-plane: {
+      icon: https://icons.terrastruct.com/essentials%2F112-server.svg
+      shape: image
+    }
+    worker-1: {
+      icon: https://icons.terrastruct.com/essentials%2F112-server.svg
+      shape: image
+    }
+    worker-2: {
+        icon: https://icons.terrastruct.com/essentials%2F112-server.svg
+        shape: image
+    }
+    control-plane <-> worker-1
+    control-plane <-> worker-2
+    worker-1 <-> worker-2
+    label.near: bottom-center
+}
+direction: right
+wireguard: "WireGuard / Kubespan" {
+  icon: https://images.seeklogo.com/logo-png/48/1/wireguard-logo-png_seeklogo-481785.png?v=1957195998555002256
+  shape: image
+}
+hetzner: {
+    vps: "hetzner-worker" {
+      icon: https://icons.terrastruct.com/essentials%2F112-server.svg
+      shape: image
+    }
+    label.near: bottom-center
+}
+homelab.control-plane <-> wireguard
+homelab.worker-1 <-> wireguard
+homelab.worker-2 <-> wireguard
+wireguard <-> hetzner.vps
+internet: "Internet" {
+    icon: https://icons.terrastruct.com/essentials%2F140-internet.svg
+    shape: image
+}
+hetzner.vps <-> internet

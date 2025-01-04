@@ -1,10 +1,15 @@
 baseURL: "https://tricht.eu/"
 languageCode: "en-gb"
 title: "Michael van Tricht"
-paginate: 100
+pagination:
+  pagerSize: 100
 publishDir: "docs"
 enableRobotsTXT: true
- 
-pygmentscodefences: true
-pygmentscodefencesguesssyntax: true
-pygmentsstyle: "gruvbox"
+
+markup:
+  highlight:
+    style: gruvbox
+    guessSyntax: true
+  goldmark:
+    renderer:
+      unsafe: true
