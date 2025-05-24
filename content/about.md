@@ -1,5 +1,5 @@
 +++
-title = "Who am I?"
+title = ""
 slug = "whoami"
 draft = false
 +++
@@ -7,7 +7,7 @@ I'm Michael van Tricht, living in The Netherlands. I started freelancing when I 
 
 Feel free to track me down on [GitHub](https://github.com/mtricht) or simply shoot me an [email](mailto:michael@tricht.eu).
 
-### Technologies, tools, buzzwords and more I work/have worked with
+#### Technologies, tools, buzzwords and more I work/have worked with
  Java, Kotlin, Spring Boot, Go, PHP, iOS, macOS, Swift, Laravel, Lumen, Symfony, Slim, CakePHP, CodeIgniter, NodeJS, Javascript, Express, React, 
  Python, Flask, RabbitMQ, SCRUM, Test Driven Development, Design Patterns, UML, MySQL, MongoDB, PostgreSQL, SQL server, AWS, Google Cloud, Azure,
  Linux, CentOS, Ubuntu, Arch Linux, Docker, Kubernetes, Helm, SOPS, Jenkins, SonarQube, Grafana, Graylog, Datadog, Prometheus, Git, Github, Gitlab,

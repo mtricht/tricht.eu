@@ -1,5 +1,5 @@
 +++
-title = "Projects"
+title = ""
 slug = "projects"
 draft = false
 +++
