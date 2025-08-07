@@ -71,7 +71,7 @@ $ talosctl upgrade-k8s --nodes $CONTROL_PLANE_IP --version <NEW_K8S_VERSION>
 
 ## Migrating docker-compose files
 
-If you’re transitioning from `docker-compose`, Talos supports the migration process with Kompose, a tool for converting docker compose files into Kubernetes manifests.
+If you’re transitioning from `docker-compose`, [Kompose](https://kompose.io/) is a tool for converting docker compose files into Kubernetes manifests.
 
 1. **Install Kompose**
    ```bash
