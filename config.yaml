@@ -1,5 +1,5 @@
 baseURL: "https://tricht.eu/"
-languageCode: "en-gb"
+locale: "en-gb"
 title: "Michael van Tricht"
 pagination:
   pagerSize: 100

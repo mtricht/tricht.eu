@@ -1,14 +1,16 @@
 body {
   max-width: 750px;
   font-family: sans-serif;
+  background-color: #1f1f28;
+  color: #dcd7ba;
 }
 
 a, a:visited {
-  color: #9ab8d4;
+  color: #7fb4ca;
 }
 
 a:hover {
-  color: #ccdff5;
+  color: #7e9cd8;
   text-decoration: underline;
   border-bottom: 0px;
 }
@@ -30,7 +32,7 @@ header div {
 }
 
 #title a {
-  color: #c9c9c9;
+  color: #dcd7ba;
 }
 
 h1 {
