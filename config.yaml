@@ -4,7 +4,6 @@ title: "Michael van Tricht"
 pagination:
   pagerSize: 100
 publishDir: "docs"
-enableRobotsTXT: true
 
 markup:
   highlight:
