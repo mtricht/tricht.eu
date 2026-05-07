@@ -57,6 +57,10 @@ pre {
   padding: 0.5em;
 }
 
+code {
+  padding: 0;
+}
+
 .back-to-top {
   display: block;
   text-align: right;
