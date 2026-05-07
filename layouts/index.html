@@ -1,10 +1,12 @@
 {{ define "main" }}
-<p class="article">
+<div class="articles">
   {{ range where .Site.RegularPages "Section" "in" site.Params.mainSections }}
-    <em><small><time>{{ .Date.Format "Jan 2 2006" }}</time></small></em>
-    <a href="{{ .Permalink }}">
-    {{ .Title }}
-    </a>
+  <div class="article">
+      <a href="{{ .Permalink }}">
+      {{ .Title }}
+      </a>
+      <em><small><time>{{ .Date.Format "2006-01-02" }}</time></small></em>
+    </div>
   {{- end }}
-</p>
+</div>
 {{ end }}

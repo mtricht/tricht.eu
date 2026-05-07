@@ -7,7 +7,7 @@ publishDir: "docs"
 
 markup:
   highlight:
-    style: gruvbox
+    style: nord
     guessSyntax: true
   goldmark:
     renderer:

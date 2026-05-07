@@ -3,9 +3,10 @@
     <div id="post-header">
         <h1>{{ .Title }}</h1>
         {{- if isset .Params "date" -}}
-            <em><small><time>{{ .Date.Format "January 2, 2006" }}</time></small></em>
+            <em><small><time>{{ .Date.Format "2006-01-02" }}</time></small></em>
         {{- end -}}
     </div>
     {{- .Content -}}
+    <a href="#top" class="back-to-top">Back to top</a>
 </article>
 {{ end }}
