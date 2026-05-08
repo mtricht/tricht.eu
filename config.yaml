@@ -7,7 +7,7 @@ publishDir: "docs"
 
 markup:
   highlight:
-    style: nord
+    style: catppuccin-mocha
     guessSyntax: true
   goldmark:
     renderer:
