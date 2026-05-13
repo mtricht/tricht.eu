@@ -23,23 +23,17 @@ a:hover {
   border-bottom: 0px;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
+#subtitle {
+    display: flex;
+    justify-content: space-between;
 }
 
-header div {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-#title {
+header h3 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-#title a {
+header h3 a {
   background: linear-gradient(120deg, var(--link-color), #a6e3a1);
   background-clip: text;
   -webkit-text-fill-color: transparent;
